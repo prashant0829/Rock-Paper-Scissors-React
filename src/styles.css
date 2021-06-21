@@ -1,0 +1,96 @@
+.App {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+}
+
+h1 {
+  color: #ff2389;
+}
+
+h2 {
+  color: #42cbff;
+}
+
+p {
+  font-size: 30px;
+}
+
+.You,
+.Computer {
+  /* border: 2px solid black; */
+  /* background-color: aliceblue; */
+  border-radius: 5px;
+  box-shadow: rgb(201 201 201) 0px 5px 30px -10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+button {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 5px 10px 5px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  color: rgb(54, 54, 54);
+  font-family: "Courier New", Courier, monospace;
+}
+
+button:hover {
+  background-color: rgb(190, 225, 255);
+}
+
+@media (max-width: 400px) {
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
+  body {
+    max-width: 100%;
+  }
+  .App {
+    max-width: 360px;
+  }
+
+  h1 {
+    margin: 15px;
+    font-size: 25px;
+  }
+  .You {
+    margin: 20px 10px;
+  }
+  h2 {
+    margin-top: 20px;
+    font-size: 32px;
+  }
+  h4 {
+    font-size: 20px;
+    padding: 20px;
+  }
+  img {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+  }
+  button {
+    font-size: 18px;
+  }
+  .ComputerImage {
+    margin-top: 20px;
+  }
+}
